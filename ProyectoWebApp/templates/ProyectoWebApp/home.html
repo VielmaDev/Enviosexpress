@@ -1,0 +1,44 @@
+
+{% extends "ProyectoWebApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoWebApp/img/Principal.png'%}" alt="" style="width: 50%;">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-lower">Puntualidad</span>
+            <span class="section-heading-upper">Con el mejor stock</span>
+          </h2>
+          <p class="mb-3">Recibe en la puerta de tu casa en 48 horas con el envío normal y 24 h con el envío express.Además te ofrecemos el servico de Drone a nivel regional en 24 horas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower">Compromiso total</span>
+                <span class="section-heading-upper">Garantizado</span>
+              </h2>
+              <p class="mb-0">Con más de 50 años de experiencia a nivel nacional e internacional. Desde envíos express tenemos las herramientas necesarias para llevar cualquier objeto a la puerta de tu casa con puntualidad y responsabilidad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
+
+    
