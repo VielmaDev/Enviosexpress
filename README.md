@@ -1,5 +1,5 @@
 <h3>Pantalla principal del site web Envíos Express</h3>
-<img src='https://github.com/VielmaDev/ProyectoWeb-Enviosexpress/assets/121409131/704841b9-ee5b-4611-b6d0-57124393dd47'>
+<img src='https://github.com/VielmaDev/ProyectoWeb-Enviosexpress/assets/121409131/eb2b4a96-d76f-4b51-8eb0-64110347470a'>
 
 <h3>pantalla servicios</h3>
 <img src='https://github.com/VielmaDev/ProyectoWeb-Enviosexpress/assets/121409131/b37fbee6-4e25-4222-a061-26fa82526283'>
