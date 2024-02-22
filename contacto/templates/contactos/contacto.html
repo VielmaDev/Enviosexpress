@@ -8,7 +8,7 @@
 
         {% if "valido" in request.get %}
 
-            <p style="color: white;">Información enviada.Gracias por contactarnos!</p>
+            <p style="color: white;">Información enviada. Gracias por contactarnos!</p>
 
         {% endif %}
         
@@ -16,9 +16,11 @@
 
             {% csrf_token %}
         
-            <table style="color: white; margin: 20px auto;">{{miFormulario.as_table}}</table>
+            <table>{{miFormulario.as_table}}</table>
 
-            <input type="submit" value="Envíar" style="width: 150px;">
+            <!--<input type="submit" value="Envíar" style="width: 150px;">-->
+
+            <button type="submit" class="btn btn-outline-success">Envíar</button>
 
         </form>
     

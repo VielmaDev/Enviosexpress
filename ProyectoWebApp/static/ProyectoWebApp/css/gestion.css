@@ -6,17 +6,18 @@ body {
   background-size: cover;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
   line-height: 1.75;
+  font-size: 1.0em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .text-faded {
@@ -24,17 +25,17 @@ p {
 }
 
 .site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .site-heading .site-heading-lower {
@@ -76,12 +77,12 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(24, 64, 8, 0.85);
+  background-color: rgba(23, 173, 111, 0.60);
 }
 
 #mainNav {
-  background-color: rgba(24, 64, 8, 0.85);
-  font-family: 'Raleway';
+  background-color: rgba(23, 173, 111, 0.60);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #mainNav .navbar-brand {
@@ -90,7 +91,7 @@ p {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.9);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
@@ -134,7 +135,7 @@ p {
     left: 600;
     width: 60%;
     margin-top: 3rem;
-    background-color: rgba(39, 124, 67);
+    background-color: rgba(39, 124, 67, 0.60);
     color: rgb(231, 247, 240);
     position: absolute;
   }
@@ -153,16 +154,16 @@ p {
 }
 
 .cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: rgb(24, 64, 8, 0.85);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgb(39, 124, 67);
+  background-color: rgb(39, 124, 67, 0.60);
   color: rgb(231, 247, 240);
 }
 
@@ -174,14 +175,13 @@ p {
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgba(39, 124, 67);
+  border: 0.25rem solid rgb(9, 153, 153);
 }
 
 .cta .cta-innerv {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(39, 124, 67);
 }
 
 @media (min-width: 992px) {
@@ -227,10 +227,6 @@ p {
   font-size: 1.2rem;
 }
 
-.footer {
-   background-color: rgba(24, 64, 8, 0.85);
-}
-
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
 }
@@ -273,8 +269,6 @@ ul.errorlist{
   color: red;
 }
 
-
-
 .linksCategoria{
   color: white! important;
   text-decoration: underline;
@@ -285,14 +279,17 @@ ul.errorlist{
 }
 
 .contenedorFormulario{
-
-  background-color:rgba(24, 64, 8, 0.85);
   width: 40%;
-  margin: 10px auto;
+  margin: 25px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.0em;
 }
 
-.contenedorFormulario{
+.contenedorFormulario table{
+  color: white; 
+}
 
-  border-radius: 5px;
-  padding: 1px 2px;
+.contenedorFormulario button{
+  margin-top: 15px;
+  align-items: center;
 }

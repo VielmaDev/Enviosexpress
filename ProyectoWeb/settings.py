@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'carro',
     'autenticacion',
     'crispy_forms',
-     'pedidos',
+    'pedidos',
 ]
 
 MIDDLEWARE = [
@@ -145,7 +145,7 @@ EMAIL_PORT= 587
 
 EMAIL_HOST_USER="vielmatica@gmail.com"
 
-EMAIL_HOST_PASSWORD="tigre2014"
+EMAIL_HOST_PASSWORD="****"
 
 
 

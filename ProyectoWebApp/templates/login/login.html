@@ -15,19 +15,19 @@
 
             {% if messages %}
 
-            {% for mensaje in messages %}
+                {% for mensaje in messages %}
 
-            <span class="alert alert-{{mensaje.tags}}">{{mensaje}} </span>
+                    <span class="alert alert-{{mensaje.tags}}">{{mensaje}} </span>
 
-            {% endfor %}
+                {% endfor %}
 
             {% endif %}
 
             <br><br><br>
 
-        {{form|crispy}}
+            {{form|crispy}}
 
-        <button type="submit" class="btn btn-success">Login</button>
+            <button type="submit" class="btn btn-success">Login</button>
 
         </div>
 
