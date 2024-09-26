@@ -6,12 +6,11 @@ body {
   background-size: cover;
 }
 
-h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -36,12 +35,30 @@ p {
   display: block;
   font-size: 2rem;
   font-weight: 700;
+
 }
 
 .site-heading .site-heading-lower {
   font-size: 5rem;
-  font-weight: 100;
+  font-weight:bold;
   line-height: 4rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(252, 252, 252);
+  
+}
+
+.site-heading .site-heading-lower a{
+  text-decoration: none;
+}
+
+.site-heading .site-heading-lower a:link{
+  color: rgb(252, 252, 252);
+}
+
+.site-heading .site-heading-lower a:visited{
+  color: rgb(252, 252, 252);
 }
 
 .page-section {
@@ -83,32 +100,33 @@ p {
 #mainNav {
   background-color: rgba(23, 173, 111, 0.60);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  backdrop-filter: blur(3px);
 }
 
 #mainNav .navbar-brand {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.9);
-  font-weight: 700;
+  font-weight: bold;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #ffffff;
+  color:rgba(255, 255, 255, 0.9);
   text-decoration: underline;
 }
 
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: underline;
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: underline;
   }
 }
@@ -137,6 +155,7 @@ p {
     margin-top: 3rem;
     background-color: rgba(39, 124, 67, 0.60);
     color: rgb(231, 247, 240);
+    backdrop-filter: blur(3px);
     position: absolute;
   }
   .intro .intro-text .intro-button {
@@ -165,6 +184,7 @@ p {
   margin: 0.5rem;
   background-color: rgb(39, 124, 67, 0.60);
   color: rgb(231, 247, 240);
+  backdrop-filter: blur(3px);
 }
 
 .cta .cta-inner:before {

@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'crispy_forms',
+
     'ProyectoWebApp',
     'Servicios',
     'contacto',
@@ -46,7 +49,6 @@ INSTALLED_APPS = [
     'blog',
     'carro',
     'autenticacion',
-    'crispy_forms',
     'pedidos',
 ]
 
@@ -160,8 +162,6 @@ MEDIA_ROOD= BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CRYSPY_TEMPLATE_PACK = 'bootstrap4'
-
 MESSAGE_TAGS = {
 
     mesajes_de_error.DEBUG:'debug',
@@ -170,6 +170,9 @@ MESSAGE_TAGS = {
     mesajes_de_error.WARNING:'warning',
     mesajes_de_error.ERROR:'danger',
 }
+
+CRYSPY_TEMPLATE_PACK = 'bootstrap4'
+
 
 
 

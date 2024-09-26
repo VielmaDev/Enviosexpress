@@ -20,18 +20,20 @@
 
     <h2 class="site-heading text-center text-white d-none d-lg-block">
       
-        <span class="site-heading-lower">Envíos Express</span>
+        <span class="site-heading-lower"><a href="{% url 'home' %}">Envíos Express</a></span>
     </h2>
 
     <div style="text-align:right; margin-right:100px; color:white; font-family:Arial, Helvetica, sans-serif">
     
-      {% if user.is_authenticated %}
+    {% if user.is_authenticated %}
 
-      Hola {{user.username}} &nbsp; &nbsp; <a href="{% url 'cerrar_sesion' %}" style="color:white;">Cerrar Sesión</a>
+        Hola {{user.username}} &nbsp; &nbsp; <a href="{% url 'cerrar_sesion' %}" style="color:white;">Cerrar Sesión</a>
 
     {% else %}
       
-    <a href="{% url 'logear' %}" style="color:white;">Login</a>&nbsp; &nbsp; <a href="{% url 'Autenticacion' %}" style="color:white;">Registrate</a>
+      <a href="{% url 'logear' %}" style="color:white; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">Login</a>
+      &nbsp; &nbsp; 
+      <a href="{% url 'Autenticacion' %}" style="color:white; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">Registrate</a>
 
     {% endif %}
 
@@ -107,7 +109,7 @@
             <a href="sample.html" class="link">Cookies</a>
         </p>
 
-        <p class="m-0 mbt1">&copy; copyright 2022 By @Vielmajs7 </p>
+        <p class="m-0 mbt1">&copy; 2022 By vielmadev </p>
       </div>
 	</footer>
 

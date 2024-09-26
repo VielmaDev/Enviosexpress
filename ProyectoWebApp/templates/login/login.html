@@ -9,8 +9,6 @@
 
     <form method="post" action=" " style="color:white;">
 
-        {% csrf_token %}
-
         <div style="width: 60%; margin: auto;">
 
             {% if messages %}
@@ -26,6 +24,8 @@
             <br><br><br>
 
             {{form|crispy}}
+            
+            {% csrf_token %}
 
             <button type="submit" class="btn btn-success">Login</button>
 
