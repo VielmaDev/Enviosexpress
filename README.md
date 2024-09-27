@@ -5,7 +5,7 @@
 </div>
 
 <div>
-  <p>Este Web site es un proyecto de práctica profesional que contempla el servico de una empresa de envíos de encomienda, así como, una tienda virtual. Los
+  <p>Este Web site es una práctica  profesional que contempla el servico de una empresa de envíos de encomienda, donde se ofrece información sobre los servicios, así como, una tienda virtual. Los
 usuarios puede crear su perfil e interactuar con la herramienta. </p>
 </div>
 
