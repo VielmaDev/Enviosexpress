@@ -10,7 +10,7 @@ usuarios puede crear su perfil e interactuar con la herramienta. </p>
 </div>
 
 <div>
-  <p>La web esta diseñada en lenguaje Python, con el uso de el framework Django y en su estructura se implemento Bootstrap.</p>
+  <p>La web se desarrollo en lenguaje Python, con el uso de el framework Django y en su estructura de diseño se implemento Bootstrap.</p>
 </div>
 
 <div class="container my-2">
