@@ -8,7 +8,6 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
 
-
 # Create your views here.
 
 class VRegistro(View):
@@ -41,13 +40,11 @@ class VRegistro(View):
 def cerrar_sesion(request):
 
     logout(request)
-
     return redirect('home')
 
 def logear(request):
 
-    if request.method=="POST":
-
+    if request.method =="POST":
         form= AuthenticationForm(request, data=request.POST)
 
         if form.is_valid():
@@ -61,7 +58,6 @@ def logear(request):
             else:
                 messages.error(request, "Información incorrecta")
         else:
-            
             messages.error(request, "usuario no valido")
 
     form=AuthenticationForm()
