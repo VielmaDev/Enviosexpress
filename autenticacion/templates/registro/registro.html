@@ -2,22 +2,17 @@
 
 {% load static %}
 
-{% load crispy_forms_tags %}
-
 {% block content %}
 
-    <form method="post" action=" " style="color:white;">
-
-        {% csrf_token %}
-
-        <div style="width: 60%; margin: auto;">
-
-            {{form}}
-
-            <button type="submit" class="btn btn-success">Registrate</button>
-
+    <form class="form" method="post" action=" ">
+        <div class="container-fluid my-5" id="formulario">
+            {% csrf_token %}
+            <label class="username">{{ form.username.label }}: &nbsp;{{ form.username }}</label>
+            <label class="password1">{{ form.password1.label }}: &nbsp;{{ form.password1 }}</label>
+            <p class="note">La contraseña debe tener 8 caracteres entre ellos ( *, #, +, -, _, $ )</p>
+            <label class="password2">{{ form.password2.label }}: &nbsp;{{ form.password2 }}</label>
+            <button type="submit" class="btn btn-info">Registrarse</button>
         </div>
-
     </form>
 
 {% endblock %}
