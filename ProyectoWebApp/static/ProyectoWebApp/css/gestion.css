@@ -330,7 +330,6 @@ ul.errorlist{
   top: 5%;
   transform: translate(0%, -5%);
   padding-bottom: 5px;
-
 }
 
 .alert{
@@ -352,7 +351,7 @@ ul.errorlist{
   font-size: 0.98em;
 
   position: relative;
-  left: 1%;
+  left: 0%;
   top: 0%;
   transform: translate(0%, 0%);
 }
@@ -381,7 +380,6 @@ ul.errorlist{
   left: 7%;
   top: 20%;
   transform: translate(0%, 0%);
-
 }
 
 #formulario .password2{
@@ -398,18 +396,68 @@ ul.errorlist{
   transform: translate(0%, -5%);
 }
 
-.contenedorFormulario{
-  width: 40%;
-  margin: 25px auto;
+#contactoFormulario{
+  border: 0.25rem solid rgba(23, 173, 111);
+  border-radius: 10px;
+  height: 410px;
+  width: 577px;
+
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.0em;
+  font-size: 0.98em;
+  font-weight: bold;
+  color: rgb(252, 252, 252);
+
+  position: relative;
+  left: 0%;
+  top: 0%;
+  transform: translate(0%, 0%);
 }
 
-.contenedorFormulario table{
-  color: white; 
+#contactoFormulario .name{
+  position: relative;
+  left:4%;
+  top: 5%;
+  transform: translate(0%, 0%);
 }
 
-.contenedorFormulario button{
-  margin-top: 15px;
-  align-items: center;
+#contactoFormulario .nombre{
+  position: relative;
+  left: 5%;
+  top: 5%;
+  transform: translate(0%, 0%);
+}
+
+#contactoFormulario .email{
+  position: relative;
+  left: -46%;
+  top: 20%;
+  transform: translate(0%, 0%);
+}
+
+#contactoFormulario .correo{
+  position: relative;
+  left: -45%;
+  top: 20%;
+  transform: translate(0%, 0%);
+}
+
+#contactoFormulario .content{
+  position: relative;
+  left: 1%;
+  top: -30%;
+  transform: translate(0%, 0%);
+}
+
+#contactoFormulario .contenido{
+  position:relative;
+  left: 2%;
+  top: 25%;
+  transform: translate(0%, 0%);
+}
+
+#contactoFormulario .btn{
+  position: relative;
+  left: 4%;
+  top: 20%;
+  transform: translate(0%, 0%);
 }

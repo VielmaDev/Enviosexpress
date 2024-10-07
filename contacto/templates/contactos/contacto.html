@@ -4,26 +4,26 @@
 
 {% block content %}
 
-    <div class="contenedorFormulario">
-
+    <div class="container-fluid my-5">
         {% if "valido" in request.get %}
-
             <p style="color: white;">Información enviada. Gracias por contactarnos!</p>
-
         {% endif %}
         
-        <form action="" method="post" style="text-align: center;">
+        <form class="form" method="post" action=" ">
+            <div class="container-fluid my-5" id="contactoFormulario">
+                {% csrf_token %}
+                <label class="name">{{ miFormulario.nombre.label }}:</label>
+                <label class="nombre">{{miFormulario.nombre}}</label>
 
-            {% csrf_token %}
-        
-            <table>{{miFormulario.as_table}}</table>
+                <label class="email">{{ miFormulario.email.label}}:</label> 
+                <label class="correo">{{miFormulario.email}}</label>
 
-            <!--<input type="submit" value="Envíar" style="width: 150px;">-->
+                <label class="content">{{ miFormulario.contenido.label}}:</label>
+                <label class="contenido">{{miFormulario.contenido}}</label>
 
-            <button type="submit" class="btn btn-outline-success">Envíar</button>
-
+                <button type="submit" class="btn btn-outline-success">Envíar</button>
+            </div>
         </form>
-    
     </div>
 
 {% endblock %}
