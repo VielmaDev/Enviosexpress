@@ -298,166 +298,73 @@ ul.errorlist{
   text-decoration: none;
 }
 
-#login{
+
+.form_register,
+.form_login{
   border: 0.25rem solid rgb(9, 153, 153);
   border-radius: 10px;
-  height: 170px;
-  width: 465px;
+  backdrop-filter: blur(3px);
 
+  margin:auto;
+  width: 85%;
+  max-width: 440px;
+  padding: 1.6em 2em;
+ 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(252, 252, 252);
   font-weight: bold;
-
-  position: relative;
-  left: 0%;
-  top: 50%;
-  transform: translate(-1%, -5%);
+  font-size: 0.89em;
+  text-align: center;
 }
 
-#login .name{
-  padding-top: 20px;
-  padding-left: 6px;
-}
-
-#login .password{
-  padding-top: 10px;
-  padding-left: 78px;
-}
-
-#login .btn{
-  position: relative;
-  left: 47%;
-  top: 5%;
-  transform: translate(0%, -5%);
-  padding-bottom: 5px;
-}
-
-.alert{
-  position: relative;
-  left: 27%;
-  top: 42%;
-  transform: translate(0%, -5%);
-}
-
-#formulario{
+.form_contacto{
   border: 0.25rem solid rgb(9, 153, 153);
   border-radius: 10px;
-  height: 280px;
-  width: 515px;
+  backdrop-filter: blur(3px);
 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(252, 252, 252);
-  font-weight: bold;
-  font-size: 0.98em;
-
-  position: relative;
-  left: 0%;
-  top: 0%;
-  transform: translate(0%, 0%);
-}
-
-#formulario .username{
-  position: relative;
-  left:29%;
-  top: 10%;
-  transform: translate(-35%, 10%);
-}
-
-
-#formulario .password1{
-  position: relative;
-  left: 14%;
-  top: 19%;
-  transform: translate(0%, -5%);
-}
-
-#formulario .note{
-  font-size: 0.88em;
-  font-weight: bold;
-  color: rgb(14, 214, 214);
-
-  position: relative;
-  left: 7%;
-  top: 20%;
-  transform: translate(0%, 0%);
-}
-
-#formulario .password2{
-  position: relative;
-  left: 0%;
-  top: 22%;
-  transform: translate(0%, -5%);
-}
-
-#formulario .btn{
-  position: relative;
-  left: 40%;
-  top: 26%;
-  transform: translate(0%, -5%);
-}
-
-#contactoFormulario{
-  border: 0.25rem solid rgba(23, 173, 111);
-  border-radius: 10px;
-  height: 410px;
-  width: 577px;
+  margin:auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 1.6em 2em;
 
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.98em;
+  font-size: 0.95em;
   font-weight: bold;
   color: rgb(252, 252, 252);
+  text-align: center;
 
+}
+
+.form_title{
+  font-size: 1.8em;
+  margin-bottom: .8em;
+  text-decoration: underline;
+  font-weight: bold;
+  color:rgb(10, 209, 209)
+}
+
+.form_container{
+  margin-top: 4.0em;
+  display: grid;
+  gap: 2em;
+}
+
+.form_group{
   position: relative;
-  left: 0%;
-  top: 0%;
-  transform: translate(0%, 0%);
 }
 
-#contactoFormulario .name{
-  position: relative;
-  left:4%;
-  top: 5%;
-  transform: translate(0%, 0%);
+.form_label{
+  position: absolute;
+  top: 0;
+  left: 95px;
+  transform: translate(-16px, -24px);
 }
 
-#contactoFormulario .nombre{
-  position: relative;
-  left: 5%;
-  top: 5%;
-  transform: translate(0%, 0%);
+.btn{
+  width: 60%;
+  max-width: 200px;
 }
 
-#contactoFormulario .email{
-  position: relative;
-  left: -46%;
-  top: 20%;
-  transform: translate(0%, 0%);
-}
 
-#contactoFormulario .correo{
-  position: relative;
-  left: -45%;
-  top: 20%;
-  transform: translate(0%, 0%);
-}
 
-#contactoFormulario .content{
-  position: relative;
-  left: 1%;
-  top: -30%;
-  transform: translate(0%, 0%);
-}
 
-#contactoFormulario .contenido{
-  position:relative;
-  left: 2%;
-  top: 25%;
-  transform: translate(0%, 0%);
-}
-
-#contactoFormulario .btn{
-  position: relative;
-  left: 4%;
-  top: 20%;
-  transform: translate(0%, 0%);
-}

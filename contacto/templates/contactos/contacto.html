@@ -4,24 +4,32 @@
 
 {% block content %}
 
-    <div class="container-fluid my-5">
-        {% if "valido" in request.get %}
-            <p style="color: white;">Información enviada. Gracias por contactarnos!</p>
-        {% endif %}
+<div class="container-fluid my-5">
+    {% if "valido" in request.get %}
+        <p style="color: white;">Información enviada. Gracias por contactarnos!</p>
+    {% endif %}
         
-        <form class="form" method="post" action=" ">
-            <div class="container-fluid my-5" id="contactoFormulario">
+    <form class="form_contacto my-5" method="post" action=" ">
+        <h3 class="form_title">CONTACTANOS</h3>
+            <div class="form_container">
                 {% csrf_token %}
-                <label class="name">{{ miFormulario.nombre.label }}:</label>
-                <label class="nombre">{{miFormulario.nombre}}</label>
+                <div class="form_group">
+                    <label class="form_label">{{ miFormulario.nombre.label }}:</label>
+                    <label class="nombre">{{miFormulario.nombre}}</label>
+                </div>
 
-                <label class="email">{{ miFormulario.email.label}}:</label> 
-                <label class="correo">{{miFormulario.email}}</label>
+                <div class="form_group">
+                    <label class="form_label">{{ miFormulario.email.label}}:</label> 
+                    <label class="correo">{{miFormulario.email}}</label>
+                </div>
 
-                <label class="content">{{ miFormulario.contenido.label}}:</label>
-                <label class="contenido">{{miFormulario.contenido}}</label>
+                <div class="form_group">
+                    <label class="form_label">{{ miFormulario.contenido.label}}:</label>
+                    <label class="contenido">{{miFormulario.contenido}}</label>
+                </div>
 
-                <button type="submit" class="btn btn-outline-success">Envíar</button>
+                <div class="form_group">
+                    <button type="submit" class="btn btn-success">Envíar</button>
             </div>
         </form>
     </div>
