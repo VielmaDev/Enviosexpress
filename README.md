@@ -6,11 +6,11 @@
 
 <div>
   <p>Este Web site es una práctica  profesional que contempla el servico de una empresa de envíos de encomienda, donde se ofrece información sobre los servicios, así como, una tienda virtual. Los
-usuarios puede crear su perfil e interactuar con la herramienta. </p>
+usuarios pueden crear su perfil e interactuar con la herramienta web. </p>
 </div>
 
 <div>
-  <p>La web se desarrollo en lenguaje Python, con el uso de el framework Django y en su estructura de diseño se implemento Bootstrap.</p>
+  <p>El site se desarrollo en lenguaje Python, con el uso de el framework Django y en su estructura de diseño se implemento HTML, CSS y Bootstarp.</p>
 </div>
 
 <div class="container my-2">
