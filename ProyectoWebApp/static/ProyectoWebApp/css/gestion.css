@@ -35,7 +35,6 @@ p {
   display: block;
   font-size: 2rem;
   font-weight: 700;
-
 }
 
 .site-heading .site-heading-lower {
@@ -46,7 +45,6 @@ p {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(252, 252, 252);
-  
 }
 
 .site-heading .site-heading-lower a{
@@ -75,7 +73,6 @@ p {
   font-size: 1rem;
   font-weight: 800;
   padding-bottom:.5rem;
-
 }
 
 .section-heading .section-heading-lower {
@@ -94,7 +91,9 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(23, 173, 111, 0.60);
+  color: rgb(255, 255, 255);
+  border: 0.25rem solid rgb(23, 173, 111, 0.60);
+  backdrop-filter: blur(3px);
 }
 
 #mainNav {
@@ -144,22 +143,21 @@ p {
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
   .intro .intro-img {
-    width: 75%;
+    width: 60%;
     float: left;
   }
   .intro .intro-text {
     left: 600;
-    width: 60%;
+    width: 45%;
     margin-top: 3rem;
-    background-color: rgba(39, 124, 67, 0.60);
     color: rgb(255, 255, 255);
     backdrop-filter: blur(3px);
     position: absolute;
   }
   .intro .intro-text .intro-button {
-    width: 100%;
+    width: 90%;
     left: 0;
     position: absolute;
     bottom: -2rem;
@@ -182,9 +180,9 @@ p {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgb(39, 124, 67, 0.60);
   color: rgb(255, 255, 255);
   backdrop-filter: blur(3px);
+  background-color: rgba(78, 165, 83, 0.5);
 }
 
 .cta .cta-inner:before {
@@ -195,7 +193,7 @@ p {
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgb(9, 153, 153);
+  border: 0.25rem solid rgb(23, 173, 111, 0.80);
 }
 
 .cta .cta-innerv {
@@ -297,7 +295,6 @@ ul.errorlist{
 .linksCategoria:hover{
   text-decoration: none;
 }
-
 
 .form_register,
 .form_login{
