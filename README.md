@@ -5,8 +5,7 @@
 </div>
 
 <div>
-  <p>Este Web site es una práctica  profesional que contempla el servico de una empresa de envíos de encomienda, donde se ofrece información sobre los servicios, así como, una tienda virtual. Los
-usuarios pueden crear su perfil e interactuar con la herramienta web. </p>
+  <p>Este Web site es una práctica  profesional que contempla el servico de una empresa de envíos de encomienda, donde se ofrece información sobre los servicios, así como, una tienda virtual. Los usuarios pueden crear su perfil e interactuar con la herramienta web. </p>
 </div>
 
 <div>
@@ -20,8 +19,11 @@ usuarios pueden crear su perfil e interactuar con la herramienta web. </p>
 <div class="container my-2">
     <li>Para arrancar el servidor, ingresar a la terminal de VSC y colocar el comando:</li> 
         <p><mark>python manage.py runserver</mark></p>
-    <li>Luego ingresar al navegador Web con la dirección Ip:</li>
+    <li>Luego ingresar al navegador Web Google Chrome con la dirección Ip:</li>
         <p><mark>http://127.0.0.1:8000</mark></p>
+  <li>Para ingresar como administrador del site:</li>
+        <p>User: admin</p>
+        <p>Password: avila0987*</p>
 </div>
 
 
