@@ -20,10 +20,9 @@
     <li>Para arrancar el servidor, ingresar a la terminal de VSC y colocar el comando:</li> 
         <p><mark>python manage.py runserver</mark></p>
     <li>Luego ingresar al navegador Web Google Chrome con la dirección Ip:</li>
-        <p><mark>http://127.0.0.1:8000</mark></p>
+        <p>http://127.0.0.1:8000</p>
   <li>Para ingresar como administrador del site:</li>
-        <p>User: admin</p>
-        <p>Password: avila0987*</p>
+        <p><mark>User: admin / Password: avila0987*</mark></p>
 </div>
 
 
