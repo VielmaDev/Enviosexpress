@@ -21,7 +21,7 @@
         <p> >python manage.py runserver </p>
     <li>Luego ingresar al navegador web Google Chrome y colocar la dirección Ip:</li>
         <p>http://127.0.0.1:8000</p>
-  <li>Para ingresar modo administrador del site web, debe ingresar a la Ip:</li>
+  <li>Para ingresar modo administrador del web site, debe ingresar a la Ip:</li>
          <p>http://127.0.0.1:8000/admin</p>
         <p><mark>User: admin / Password: avila0987*</mark></p>
 </div>
