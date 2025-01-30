@@ -13,7 +13,7 @@
 </div>
 
 <div>
-  <p>La WebApp esta desarrollada bajo el lenguaje Python con el uso de el framework Django, su estructurado esta realizada en HTML, CSS y Bootstarp. Cuenta con un gestor básico de       
+  <p>La WebApp esta desarrollada bajo el lenguaje Python con el uso de el framework Django, la estructura esta realizada en HTML, CSS y Bootstarp. Cuenta con un gestor básico de       
      Database llamado "SQLite3" que forma parte de Django y que permite respaldar toda la información que suministra la WebApp. </p>
 </div>
 
