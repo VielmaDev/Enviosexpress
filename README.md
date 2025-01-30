@@ -5,11 +5,16 @@
 </div>
 
 <div>
-  <p>Este Web site es una práctica  profesional que contempla el servico de una empresa de envíos de encomienda, donde se ofrece información sobre los servicios, así como, una tienda virtual. Los usuarios pueden crear su perfil e interactuar con la herramienta web. </p>
+  <p><b>Envíos Express</b> se desarrollo como parte de un curso a nivel profesional que contempla el diseño 
+        de una Webapp para una empresa de encomiendas, en la misma se muestra información de los servicio que ofrece, 
+        posee una tienda virtual donde se puede realizar compras online, además que, los usuarios pueden crear un perfil
+        e interactuar con la plataforma. La webapp tiene un diseño responsive que se adapta a los diversos dispositivos tecnológicos.
+  </p>
 </div>
 
 <div>
-  <p>El site se desarrollo en lenguaje Python, con el uso de el framework Django y en su estructura de diseño se implemento HTML, CSS y Bootstarp.</p>
+  <p>la WebApp esta desarrollada bajo el lenguaje Python con el uso de el framework Django, su diseño esta estructurado en HTML, CSS y Bootstarp. Cuenta con un gestor básico de Database
+  llamado "SQLite3" que forma parte de Django y que permite respaldar toda la información que suministra la WebApp. </p>
 </div>
 
 <div class="container my-2">
