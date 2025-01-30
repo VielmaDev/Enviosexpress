@@ -8,13 +8,13 @@
   <p><b>Envíos Express</b> se desarrollo como parte de un curso a nivel profesional que contempla el diseño 
         de una Webapp para una empresa de encomiendas, en la misma se muestra información de los servicio que ofrece, 
         posee una tienda virtual donde se puede realizar compras online, además que, los usuarios pueden crear un perfil
-        e interactuar con la plataforma. La webapp tiene un diseño responsive que se adapta a los diversos dispositivos tecnológicos.
+        e interactuar con la plataforma. Su diseño es totalmente responsive y se adapta a los diversos dispositivos tecnológicos.
   </p>
 </div>
 
 <div>
-  <p>la WebApp esta desarrollada bajo el lenguaje Python con el uso de el framework Django, su diseño esta estructurado en HTML, CSS y Bootstarp. Cuenta con un gestor básico de Database
-  llamado "SQLite3" que forma parte de Django y que permite respaldar toda la información que suministra la WebApp. </p>
+  <p>La WebApp esta desarrollada bajo el lenguaje Python con el uso de el framework Django, su estructurado esta realizada en HTML, CSS y Bootstarp. Cuenta con un gestor básico de       
+     Database llamado "SQLite3" que forma parte de Django y que permite respaldar toda la información que suministra la WebApp. </p>
 </div>
 
 <div class="container my-2">
