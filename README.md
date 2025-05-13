@@ -31,11 +31,8 @@
     <h3>Runserver</h3>
 </div>
 <div class="container my-2">
-    <li>Arrancar el servidor, ingresar a la terminal de VSCode y colocar el comando:</li> 
-          <p>>python manage.py runserver </p>
-    <li>Ingresar al navegador Google Chrome y colocar la dirección Ip:</li>
-          <p>http://127.0.0.1:8000</p>
-    <li>Para ingresar en modo administrador, debe ingresar a la Ip:</li>
-           <p>http://127.0.0.1:8000/admin</p>
-          <p>User: admin / Password: avila0987*</p>
+    <li>Arrancar el servidor, ingresar a la terminal de VSCode y colocar el comando: python manage.py runserver </li> 
+    <li>Ingresar al navegador Google Chrome y colocar la dirección Ip: http://127.0.0.1:8000 </li>
+    <li>Para ingresar en modo administrador, debe ingresar a la Ip: http://127.0.0.1:8000/admin </li>
+          <ol>User: admin / Password: avila0987*</ol>
 </div>
