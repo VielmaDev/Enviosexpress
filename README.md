@@ -9,27 +9,33 @@
         e interactuar con la plataforma. Su diseño es totalmente responsive y se adapta a los diversos dispositivos tecnológicos.
   </p>
 </div>
+
+<div class="container my-2">
+    <h3>Aspectos técnicos</h3>
+</div>
 <div>
    <h3>Lenguajes y Framework:</h3>
-      <li>HTML</li>
-      <li>CSS</li>
       <li>Python</li>
       <li>Django</li>
+      <li>HTML</li>
+      <li>CSS</li>
       <li>Bootstrap</li>
 </div>
+
 <div>
   <h3>Database:</h3>
     <li>SQLite3</li>
 </div>
+
 <div class="container my-2">
-    <h3>Aspectos técnicos:</h3>
+    <h3>Runserver</h3>
 </div>
 <div class="container my-2">
-    <li>Para arrancar el servidor, ingresar a la terminal de VSC y colocar el comando:</li> 
-          <p> >python manage.py runserver </p>
-    <li>Luego ingresar al navegador web Google Chrome y colocar la dirección Ip:</li>
+    <li>Arrancar el servidor, ingresar a la terminal de VSCode y colocar el comando:</li> 
+          <p>>python manage.py runserver </p>
+    <li>Ingresar al navegador Google Chrome y colocar la dirección Ip:</li>
           <p>http://127.0.0.1:8000</p>
-    <li>Para ingresar modo administrador del web site, debe ingresar a la Ip:</li>
+    <li>Para ingresar en modo administrador, debe ingresar a la Ip:</li>
            <p>http://127.0.0.1:8000/admin</p>
-          <p><mark>User: admin / Password: avila0987*</mark></p>
+          <p>User: admin / Password: avila0987*</p>
 </div>
