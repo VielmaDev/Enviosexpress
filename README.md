@@ -14,11 +14,15 @@
     <h3>Aspectos técnicos:</h3>
 </div>
 <div>
-   <h3>Lenguaje y Framework:</h3>
-      <li>Python</li>
+   <h3>Front end | Back end:</h3>
       <li>HTML</li>
       <li>CSS</li>
       <li>Bootstrap</li>
+      <li>Python</li>
+</div>
+
+<div>
+   <h3>Framework:</h3>
       <li>Django</li>
 </div>
 
@@ -33,6 +37,6 @@
 <div class="container my-2">
     <li>Arrancar el servidor, ingresando a la terminal de VSCode y colocar el comando: python manage.py runserver </li> 
     <li>Ingresar al navegador Google Chrome y colocar la dirección Ip: http://127.0.0.1:8000 </li>
-    <li>Para ingresar en modo administrador, debe ingresar a la Ip: http://127.0.0.1:8000/admin </li>
-          <ol>User: admin / Password: avila0987*</ol>
+    <li>Para ingresar al administrador de Django, ingresar a la Ip: http://127.0.0.1:8000/admin </li>
+          <ol>User: admin / Password: avila0987</ol>
 </div>
