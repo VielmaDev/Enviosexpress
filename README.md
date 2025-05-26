@@ -27,7 +27,7 @@
 </div>
 
 <div>
-  <h3>Database:</h3>
+  <h3>DB API:</h3>
     <li>SQLite3</li>
 </div>
 
