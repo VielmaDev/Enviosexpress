@@ -2,7 +2,8 @@
   <h1>Envíos Express</h1>
     <img src='https://github.com/user-attachments/assets/f437683b-fa25-4f15-a0fb-a9d62a7c9b14'>
 </div>
-<div>
+
+<div class="container">
   <p><b>Envíos Express</b> se desarrollo como parte de un curso práctico que contempla el diseño 
         de una Web app para una empresa de encomiendas, en la misma se muestra información de los servicio que ofrece, 
         posee una tienda virtual donde se puede realizar compras online, además que, los usuarios pueden crear un perfil
